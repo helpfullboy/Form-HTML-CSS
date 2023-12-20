@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full_form{
+    width: 80%;
+    height: 80vh;
+    border: 2px solid #00d8d6;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+}
+.confirm_label{
+    width: 30%;
+    height: auto;
+    background-color: #ffffff
+}
+.confirm_label .point{
+    margin: 60px 30px;
+}
+.confirm_label .point span{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #00d8d6;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* text-align: center;
+    align-items: center; */
+}
+.confirm_label .point label{
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.confirm_detail{
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 216,214,0.1);
+}
+.confirm_detail h2{
+    padding:20px 30px;
+    text-transform: capitalize;
+    color: #000;
+}
+.confirm_tailel h2{
+    padding:20px 30px;
+    background-color: #00d8d6;
+    text-transform: capitalize;
+    color:#ffffff; 
+}
+.confirm_tailel p{
+    padding:20px 30px;
+    text-transform: capitalize;
+    color: #636e72; 
+}
+.confirm_input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+.confirm_input .label_input{
+    width: 32%;
+}
+.label_input label{
+    display: block;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    color: #636e72;
+}
+.label_input label span{
+    color: red;
+}
+.label_input input{
+    margin: 15px 0px;
+    padding: 7px 10px;
+    border:1px solid rgba(99, 110,114,0.5);
+    outline:none;
+}
+.back_continue{
+    margin: 30px;
+}
+.back_continue button{
+    padding: 9px 35px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#one-button{
+    border: 1px solid #00d8d6;
+    background-color: transparent;
+}
+#two-button{
+    background-color: #ffc048;
+    color: #ffffff;
+}
+
+
+

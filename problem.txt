@@ -1,0 +1,3 @@
+1.right side selection number not full round.
+2.marjin top auto not work.
+3.bottom two button devided not work. 
